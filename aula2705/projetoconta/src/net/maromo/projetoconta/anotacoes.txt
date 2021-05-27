@@ -1,0 +1,16 @@
+1º passo - > Modelar as classes de negócios
+   Classe: Conta.
+   Sendo que conta possui: número, titular, saldo, limite. (atributos)
+   O que podemos perguntar para a conta, ou fazer com a conta:
+   a) depositar,
+   b) sacar,
+   c) ver o saldo,
+   d) mostrar os detalhes da conta.
+
+2º passo - > Efetivamente realizar a lógica do programa (sequencia) (método main)
+    Para este exemplo, quero abrir 03 contas para 03 pessoas,
+    fazer vários depósitos e saques para cada conta,
+    imprimir na tela os dados de todas contas abertas,
+    mostrar o saldo de uma das contas. (Por exemplo, a segunda conta aberta)
+
+
