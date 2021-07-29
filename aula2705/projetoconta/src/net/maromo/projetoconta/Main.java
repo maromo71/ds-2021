@@ -47,7 +47,7 @@ public class Main {
                     JOptionPane.ERROR_MESSAGE);
         }
 
-        sacou = conta1.sacar(5000);
+        sacou = conta1.sacar(500);
         if(sacou){
             JOptionPane.showMessageDialog(null,
                     "Saque efetuado com sucesso na conta 1",
