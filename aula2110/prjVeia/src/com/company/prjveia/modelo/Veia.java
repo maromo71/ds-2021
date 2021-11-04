@@ -3,6 +3,10 @@ package com.company.prjveia.modelo;
 public class Veia {
     private String matriz[][] = new String[3][3];
 
+    public String[][] getMatriz() {
+        return matriz;
+    }
+
     public Veia(){
         //Modelo vai ser construído vazio
         for(int i = 0; i<3; i++){
@@ -19,9 +23,7 @@ public class Veia {
     }
     
     public String verVencedor(){
-        String jogador = "X";
         boolean temVencedor = false;
-        
         if(
             (matriz[0][0].equals("X") && matriz[0][1].equals("X") && matriz[0][2].equals("X")) ||
             (matriz[1][0].equals("X") && matriz[1][1].equals("X") && matriz[1][2].equals("X")) ||
